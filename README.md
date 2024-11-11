@@ -1,6 +1,6 @@
 # Neural Word Sense Disambiguation and Causal Tracing Project [October - November 2024]
 
-Welcome to my **Neural Word Sense Disambiguation and Causal Tracing** project! This assignment is an exploration into natural language processing techniques, such as word sense disambiguation (WSD) using both traditional algorithms and modern neural models like BERT. Additionally, it delves into understanding how large language models, such as GPT-2, process and store information through causal tracing.
+Welcome to my **Neural Word Sense Disambiguation and Causal Tracing** project! This is an exploration into natural language processing techniques, such as word sense disambiguation (WSD) using both traditional algorithms and modern neural models like BERT. Additionally, it delves into understanding how large language models, such as GPT-2, process and store information through causal tracing.
 
 ## Project Overview
 
@@ -87,9 +87,6 @@ The project is divided into three main sections, each focusing on different tech
    ```bash
    python3 gpt2-causal-tracing.py
    ```
-
-### Submission and Evaluation
-- **Submit via MarkUs**: Include all required Python files (`ntlk.py`, `lesk.py`, `bert.py`, `gpt2-causal-tracing.py`) and a written report (`a2written.pdf`).
 
 ## Key Challenges and Learnings
 
