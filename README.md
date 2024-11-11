@@ -69,27 +69,27 @@ The project is divided into three main sections, each focusing on different tech
 
 ### Running the Code
 1. **WordNet and Lesk Algorithms**:
-   - Execute the implementations in `q0.py` and `q1.py` using Python 3.
+   - Execute the implementations in `ntlk.py` and `lesk.py` using Python 3.
    ```bash
-   python3 q0.py
-   python3 q1.py
+   python3 ntlk.py
+   python3 lesk.py
    ```
 
 2. **BERT-Based WSD**:
-   - Run `q2.py` to generate BERT-based word sense predictions.
+   - Run `bert.py` to generate BERT-based word sense predictions.
    ```bash
-   python3 q2.py
+   python3 bert.py
    ```
-   - For GPU processing, use `gpu-run-q2.sh` on a supported server.
+   - For GPU processing, use `gpu-run-bert.sh` on a supported server.
 
 3. **Causal Tracing with GPT-2**:
-   - Implement and run causal tracing experiments in `q3.py`.
+   - Implement and run causal tracing experiments in `gpt2-causal-tracing.py`.
    ```bash
-   python3 q3.py
+   python3 gpt2-causal-tracing.py
    ```
 
 ### Submission and Evaluation
-- **Submit via MarkUs**: Include all required Python files (`q0.py`, `q1.py`, `q2.py`, `q3.py`) and a written report (`a2written.pdf`).
+- **Submit via MarkUs**: Include all required Python files (`ntlk.py`, `lesk.py`, `bert.py`, `gpt2-causal-tracing.py`) and a written report (`a2written.pdf`).
 
 ## Key Challenges and Learnings
 
